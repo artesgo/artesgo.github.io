@@ -137,8 +137,8 @@ __webpack_require__.r(__webpack_exports__);
 var routes = [
     {
         path: '', component: _web_component__WEBPACK_IMPORTED_MODULE_5__["WebComponent"], children: [
-            { path: '', component: _html_html_component__WEBPACK_IMPORTED_MODULE_3__["HtmlComponent"] },
-            { path: 'css', component: _css_css_component__WEBPACK_IMPORTED_MODULE_4__["CssComponent"] },
+            { path: '', component: _html_html_component__WEBPACK_IMPORTED_MODULE_3__["HtmlComponent"], data: { title: 'HTML' } },
+            { path: 'css', component: _css_css_component__WEBPACK_IMPORTED_MODULE_4__["CssComponent"], data: { title: 'CSS' } },
         ]
     }
 ];

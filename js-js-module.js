@@ -269,6 +269,7 @@ var JavascriptComponent = /** @class */ (function () {
             { route: '/js/data', label: 'Data Types' },
             { route: '/js/loop', label: 'Loops' },
             { route: '/js/functions', label: 'Functions' },
+            { route: '/js/web', label: 'Web Page' },
         ];
     }
     JavascriptComponent.prototype.ngOnInit = function () {
@@ -400,6 +401,62 @@ var VariableComponent = /** @class */ (function () {
 
 /***/ }),
 
+/***/ "./src/app/js/javascript/web-page/web-page.component.html":
+/*!****************************************************************!*\
+  !*** ./src/app/js/javascript/web-page/web-page.component.html ***!
+  \****************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "<h2>My Own Web Page</h2>\n\n<section>\n  <p>In this section, we're going to learn about creating a page, that anyone in the world can visit.</p>\n  <p>We'll start with a simple options that are free.</p>\n  <p>Note: These options are free, but have certain limits.</p>\n  \n  <h3>Deploying to Github</h3>\n  \n  <p>We learned about Github in another section of this website.</p>\n  <p>It's where we're storing all of our code and also a platform for collaborating with other people.</p>\n  \n  <h3>Deploying to Firebase</h3>\n\n  <p>Firebase is an advanced topic</p>\n</section>\n\n"
+
+/***/ }),
+
+/***/ "./src/app/js/javascript/web-page/web-page.component.scss":
+/*!****************************************************************!*\
+  !*** ./src/app/js/javascript/web-page/web-page.component.scss ***!
+  \****************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJhcHBzL2Zkbi9zcmMvYXBwL2pzL2phdmFzY3JpcHQvd2ViLXBhZ2Uvd2ViLXBhZ2UuY29tcG9uZW50LnNjc3MifQ== */"
+
+/***/ }),
+
+/***/ "./src/app/js/javascript/web-page/web-page.component.ts":
+/*!**************************************************************!*\
+  !*** ./src/app/js/javascript/web-page/web-page.component.ts ***!
+  \**************************************************************/
+/*! exports provided: WebPageComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "WebPageComponent", function() { return WebPageComponent; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../../node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "../../node_modules/@angular/core/fesm5/core.js");
+
+
+var WebPageComponent = /** @class */ (function () {
+    function WebPageComponent() {
+    }
+    WebPageComponent.prototype.ngOnInit = function () {
+    };
+    WebPageComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+            selector: 'fdn-web-page',
+            template: __webpack_require__(/*! ./web-page.component.html */ "./src/app/js/javascript/web-page/web-page.component.html"),
+            styles: [__webpack_require__(/*! ./web-page.component.scss */ "./src/app/js/javascript/web-page/web-page.component.scss")]
+        }),
+        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [])
+    ], WebPageComponent);
+    return WebPageComponent;
+}());
+
+
+
+/***/ }),
+
 /***/ "./src/app/js/js-routing.module.ts":
 /*!*****************************************!*\
   !*** ./src/app/js/js-routing.module.ts ***!
@@ -420,6 +477,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _javascript_datatype_datatype_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./javascript/datatype/datatype.component */ "./src/app/js/javascript/datatype/datatype.component.ts");
 /* harmony import */ var _javascript_control_control_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./javascript/control/control.component */ "./src/app/js/javascript/control/control.component.ts");
 /* harmony import */ var _javascript_basics_basic_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./javascript/basics/basic.component */ "./src/app/js/javascript/basics/basic.component.ts");
+/* harmony import */ var _javascript_web_page_web_page_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./javascript/web-page/web-page.component */ "./src/app/js/javascript/web-page/web-page.component.ts");
+
 
 
 
@@ -433,12 +492,13 @@ __webpack_require__.r(__webpack_exports__);
 var routes = [
     {
         path: '', component: _javascript_javascript_component__WEBPACK_IMPORTED_MODULE_3__["JavascriptComponent"], children: [
-            { path: '', component: _javascript_basics_basic_component__WEBPACK_IMPORTED_MODULE_9__["BasicComponent"] },
-            { path: 'variable', component: _javascript_variable_variable_component__WEBPACK_IMPORTED_MODULE_4__["VariableComponent"] },
-            { path: 'control', component: _javascript_control_control_component__WEBPACK_IMPORTED_MODULE_8__["ControlComponent"] },
-            { path: 'functions', component: _javascript_functions_functions_component__WEBPACK_IMPORTED_MODULE_5__["FunctionsComponent"] },
-            { path: 'loop', component: _javascript_loop_loop_component__WEBPACK_IMPORTED_MODULE_6__["LoopComponent"] },
-            { path: 'data', component: _javascript_datatype_datatype_component__WEBPACK_IMPORTED_MODULE_7__["DatatypeComponent"] },
+            { path: '', component: _javascript_basics_basic_component__WEBPACK_IMPORTED_MODULE_9__["BasicComponent"], data: { title: 'Javascript' } },
+            { path: 'variable', component: _javascript_variable_variable_component__WEBPACK_IMPORTED_MODULE_4__["VariableComponent"], data: { title: 'Variables' } },
+            { path: 'control', component: _javascript_control_control_component__WEBPACK_IMPORTED_MODULE_8__["ControlComponent"], data: { title: 'Control Structures' } },
+            { path: 'functions', component: _javascript_functions_functions_component__WEBPACK_IMPORTED_MODULE_5__["FunctionsComponent"], data: { title: 'Functions' } },
+            { path: 'loop', component: _javascript_loop_loop_component__WEBPACK_IMPORTED_MODULE_6__["LoopComponent"], data: { title: 'Loops' } },
+            { path: 'data', component: _javascript_datatype_datatype_component__WEBPACK_IMPORTED_MODULE_7__["DatatypeComponent"], data: { title: 'Data Types' } },
+            { path: 'web', component: _javascript_web_page_web_page_component__WEBPACK_IMPORTED_MODULE_10__["WebPageComponent"], data: { title: 'Website' } },
         ]
     }
 ];
@@ -480,6 +540,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _javascript_datatype_datatype_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./javascript/datatype/datatype.component */ "./src/app/js/javascript/datatype/datatype.component.ts");
 /* harmony import */ var _javascript_basics_basic_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./javascript/basics/basic.component */ "./src/app/js/javascript/basics/basic.component.ts");
 /* harmony import */ var _shared_shared_module__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../shared/shared.module */ "./src/app/shared/shared.module.ts");
+/* harmony import */ var _javascript_web_page_web_page_component__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./javascript/web-page/web-page.component */ "./src/app/js/javascript/web-page/web-page.component.ts");
 
 
 
@@ -492,21 +553,22 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var EXPORTS = [
-    _javascript_basics_basic_component__WEBPACK_IMPORTED_MODULE_10__["BasicComponent"],
-    _javascript_javascript_component__WEBPACK_IMPORTED_MODULE_4__["JavascriptComponent"],
-    _javascript_variable_variable_component__WEBPACK_IMPORTED_MODULE_5__["VariableComponent"],
-    _javascript_control_control_component__WEBPACK_IMPORTED_MODULE_6__["ControlComponent"],
-    _javascript_functions_functions_component__WEBPACK_IMPORTED_MODULE_7__["FunctionsComponent"],
-    _javascript_loop_loop_component__WEBPACK_IMPORTED_MODULE_8__["LoopComponent"],
-    _javascript_datatype_datatype_component__WEBPACK_IMPORTED_MODULE_9__["DatatypeComponent"],
-];
+
 var JsModule = /** @class */ (function () {
     function JsModule() {
     }
     JsModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["NgModule"])({
-            declarations: EXPORTS.slice(),
+            declarations: [
+                _javascript_basics_basic_component__WEBPACK_IMPORTED_MODULE_10__["BasicComponent"],
+                _javascript_javascript_component__WEBPACK_IMPORTED_MODULE_4__["JavascriptComponent"],
+                _javascript_variable_variable_component__WEBPACK_IMPORTED_MODULE_5__["VariableComponent"],
+                _javascript_control_control_component__WEBPACK_IMPORTED_MODULE_6__["ControlComponent"],
+                _javascript_functions_functions_component__WEBPACK_IMPORTED_MODULE_7__["FunctionsComponent"],
+                _javascript_loop_loop_component__WEBPACK_IMPORTED_MODULE_8__["LoopComponent"],
+                _javascript_datatype_datatype_component__WEBPACK_IMPORTED_MODULE_9__["DatatypeComponent"],
+                _javascript_web_page_web_page_component__WEBPACK_IMPORTED_MODULE_12__["WebPageComponent"],
+            ],
             imports: [
                 _angular_common__WEBPACK_IMPORTED_MODULE_2__["CommonModule"],
                 _js_routing_module__WEBPACK_IMPORTED_MODULE_3__["JsRoutingModule"],

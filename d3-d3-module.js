@@ -29184,9 +29184,9 @@ __webpack_require__.r(__webpack_exports__);
 var routes = [
     {
         path: '', component: _d3_component__WEBPACK_IMPORTED_MODULE_3__["D3Component"], children: [
-            { path: '', component: _d3_bar_d3_bar_component__WEBPACK_IMPORTED_MODULE_4__["D3BarComponent"] },
-            { path: 'bubble', component: _d3_bubble_d3_bubble_component__WEBPACK_IMPORTED_MODULE_5__["D3BubbleComponent"] },
-            { path: 'earnings', component: _earnings_report_earnings_report_component__WEBPACK_IMPORTED_MODULE_6__["EarningsReportComponent"] },
+            { path: '', component: _d3_bar_d3_bar_component__WEBPACK_IMPORTED_MODULE_4__["D3BarComponent"], data: { title: 'Bar Chart' } },
+            { path: 'bubble', component: _d3_bubble_d3_bubble_component__WEBPACK_IMPORTED_MODULE_5__["D3BubbleComponent"], data: { title: 'Bubble Chart' } },
+            { path: 'earnings', component: _earnings_report_earnings_report_component__WEBPACK_IMPORTED_MODULE_6__["EarningsReportComponent"], data: { title: 'Other' } },
         ]
     }
 ];
