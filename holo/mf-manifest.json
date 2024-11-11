@@ -1,0 +1,325 @@
+{
+  "id": "holo",
+  "name": "holo",
+  "metaData": {
+    "name": "holo",
+    "type": "app",
+    "buildInfo": {
+      "buildVersion": "0.0.0",
+      "buildName": "@letsburn/source"
+    },
+    "remoteEntry": {
+      "name": "",
+      "path": "",
+      "type": "module"
+    },
+    "types": {
+      "path": "",
+      "name": "",
+      "zip": "",
+      "api": ""
+    },
+    "globalName": "holo",
+    "pluginVersion": "0.6.6",
+    "publicPath": "auto",
+    "prefetchInterface": false
+  },
+  "shared": [
+    {
+      "id": "holo:@angular/common/http",
+      "name": "@angular/common/http",
+      "version": "18.2.11",
+      "singleton": true,
+      "requiredVersion": "^18.2.11",
+      "assets": {
+        "js": {
+          "async": [
+            "705.2d26d0ab3445c1e8.js",
+            "177.0e7ddfb3abe50b92.js",
+            "488.5dad9f8a7922fa2c.js",
+            "546.d2fd0ebf44892033.js"
+          ],
+          "sync": [
+            "626.4f937b57b8ea43ce.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "holo:@angular/common",
+      "name": "@angular/common",
+      "version": "18.2.11",
+      "singleton": true,
+      "requiredVersion": "^18.2.11",
+      "assets": {
+        "js": {
+          "async": [
+            "705.2d26d0ab3445c1e8.js",
+            "488.5dad9f8a7922fa2c.js",
+            "546.d2fd0ebf44892033.js"
+          ],
+          "sync": [
+            "177.0e7ddfb3abe50b92.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "holo:@angular/core/primitives/event-dispatch",
+      "name": "@angular/core/primitives/event-dispatch",
+      "version": "18.2.11",
+      "singleton": true,
+      "requiredVersion": "^18.2.11",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "546.d2fd0ebf44892033.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "holo:@angular/core/primitives/signals",
+      "name": "@angular/core/primitives/signals",
+      "version": "18.2.11",
+      "singleton": true,
+      "requiredVersion": "^18.2.11",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "488.5dad9f8a7922fa2c.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "holo:@angular/core",
+      "name": "@angular/core",
+      "version": "18.2.11",
+      "singleton": true,
+      "requiredVersion": "^18.2.11",
+      "assets": {
+        "js": {
+          "async": [
+            "488.5dad9f8a7922fa2c.js",
+            "546.d2fd0ebf44892033.js"
+          ],
+          "sync": [
+            "705.2d26d0ab3445c1e8.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "holo:@angular/forms",
+      "name": "@angular/forms",
+      "version": "18.2.11",
+      "singleton": true,
+      "requiredVersion": "^18.2.11",
+      "assets": {
+        "js": {
+          "async": [
+            "705.2d26d0ab3445c1e8.js",
+            "177.0e7ddfb3abe50b92.js",
+            "488.5dad9f8a7922fa2c.js",
+            "546.d2fd0ebf44892033.js"
+          ],
+          "sync": [
+            "341.1d50de333b84f9e1.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "holo:@angular/platform-browser",
+      "name": "@angular/platform-browser",
+      "version": "18.2.11",
+      "singleton": true,
+      "requiredVersion": "^18.2.11",
+      "assets": {
+        "js": {
+          "async": [
+            "705.2d26d0ab3445c1e8.js",
+            "177.0e7ddfb3abe50b92.js",
+            "839.ed145bed4941872a.js",
+            "626.4f937b57b8ea43ce.js",
+            "488.5dad9f8a7922fa2c.js",
+            "546.d2fd0ebf44892033.js"
+          ],
+          "sync": [
+            "345.50ceb885c9646337.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "holo:@angular/router",
+      "name": "@angular/router",
+      "version": "18.2.11",
+      "singleton": true,
+      "requiredVersion": "^18.2.11",
+      "assets": {
+        "js": {
+          "async": [
+            "345.50ceb885c9646337.js",
+            "705.2d26d0ab3445c1e8.js",
+            "177.0e7ddfb3abe50b92.js",
+            "626.4f937b57b8ea43ce.js",
+            "488.5dad9f8a7922fa2c.js",
+            "546.d2fd0ebf44892033.js"
+          ],
+          "sync": [
+            "925.2db88fd92d126cdf.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "holo:@artesgo/daisy-dropdown",
+      "name": "@artesgo/daisy-dropdown",
+      "version": "0.0.1",
+      "singleton": true,
+      "requiredVersion": "^undefined",
+      "assets": {
+        "js": {
+          "async": [
+            "705.2d26d0ab3445c1e8.js",
+            "177.0e7ddfb3abe50b92.js",
+            "839.ed145bed4941872a.js",
+            "341.1d50de333b84f9e1.js",
+            "488.5dad9f8a7922fa2c.js",
+            "546.d2fd0ebf44892033.js"
+          ],
+          "sync": [
+            "common.b26b73d8a50b9190.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "holo:@artesgo/daisy-tabs",
+      "name": "@artesgo/daisy-tabs",
+      "version": "0.0.1",
+      "singleton": true,
+      "requiredVersion": "^undefined",
+      "assets": {
+        "js": {
+          "async": [
+            "705.2d26d0ab3445c1e8.js",
+            "177.0e7ddfb3abe50b92.js",
+            "839.ed145bed4941872a.js",
+            "341.1d50de333b84f9e1.js",
+            "488.5dad9f8a7922fa2c.js",
+            "546.d2fd0ebf44892033.js"
+          ],
+          "sync": [
+            "common.b26b73d8a50b9190.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "holo:@artesgo/daisy-theme",
+      "name": "@artesgo/daisy-theme",
+      "version": "0.0.1",
+      "singleton": true,
+      "requiredVersion": "^undefined",
+      "assets": {
+        "js": {
+          "async": [
+            "705.2d26d0ab3445c1e8.js",
+            "177.0e7ddfb3abe50b92.js",
+            "839.ed145bed4941872a.js",
+            "341.1d50de333b84f9e1.js",
+            "488.5dad9f8a7922fa2c.js",
+            "546.d2fd0ebf44892033.js"
+          ],
+          "sync": [
+            "common.b26b73d8a50b9190.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "holo:@artesgo/daisy-typeahead",
+      "name": "@artesgo/daisy-typeahead",
+      "version": "0.0.1",
+      "singleton": true,
+      "requiredVersion": "^undefined",
+      "assets": {
+        "js": {
+          "async": [
+            "705.2d26d0ab3445c1e8.js",
+            "177.0e7ddfb3abe50b92.js",
+            "839.ed145bed4941872a.js",
+            "341.1d50de333b84f9e1.js",
+            "488.5dad9f8a7922fa2c.js",
+            "546.d2fd0ebf44892033.js"
+          ],
+          "sync": [
+            "common.b26b73d8a50b9190.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    }
+  ],
+  "remotes": [
+    {
+      "federationContainerName": "http://localhost:4201/remoteEntry.mjs",
+      "moduleName": "Routes",
+      "alias": "task",
+      "entry": "*"
+    }
+  ],
+  "exposes": []
+}
