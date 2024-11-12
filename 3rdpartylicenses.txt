@@ -125,6 +125,8 @@ THE SOFTWARE.
 
 @artesgo/daisy-dropdown
 
+@artesgo/daisy-input
+
 @artesgo/daisy-tabs
 
 @artesgo/daisy-theme
