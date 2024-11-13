@@ -5342,7 +5342,7 @@ module.exports = webpackEmptyContext;
 
 var moduleMap = {
 	"./Routes": () => {
-		return Promise.all(/* __federation_expose_Routes */[__webpack_require__.e(381), __webpack_require__.e(611), __webpack_require__.e(703), __webpack_require__.e(76)]).then(() => (() => ((__webpack_require__(7673)))));
+		return Promise.all(/* __federation_expose_Routes */[__webpack_require__.e(381), __webpack_require__.e(611), __webpack_require__.e(765), __webpack_require__.e(703), __webpack_require__.e(76)]).then(() => (() => ((__webpack_require__(7673)))));
 	}
 };
 var get = (module, getScope) => {
@@ -5937,7 +5937,7 @@ if(!__webpack_require__.federation.instance){
 /******/ 	if(!__webpack_require__.federation){
 /******/ 		__webpack_require__.federation = {
 /******/ 			initOptions: {"name":"task","remotes":[],"shareStrategy":"version-first"},
-/******/ 			chunkMatcher: function(chunkId) {return !/^(381|424|611|703)$/.test(chunkId)},
+/******/ 			chunkMatcher: function(chunkId) {return !/^(381|424|611|703|765)$/.test(chunkId)},
 /******/ 			rootOutputDir: "",
 /******/ 			initialConsumes: undefined,
 /******/ 			bundlerRuntimeOptions: {}
@@ -5987,7 +5987,7 @@ if(!__webpack_require__.federation.instance){
 /******/ 	// This function allow to reference async chunks
 /******/ 	__webpack_require__.u = (chunkId) => {
 /******/ 		// return url for filenames based on template
-/******/ 		return "" + (chunkId === 76 ? "common" : chunkId) + "." + {"76":"536484bbd9baf0f1","177":"c2c1ce86120293c4","203":"4aaca35ebe76d10f","345":"c2139e7325e717c6","381":"8016f256f23e9e2b","406":"a844342cdfd7ab87","424":"a758c18c52928922","488":"7ca56f7e737c55fa","546":"22638b797b2a0b12","611":"54c913e93527991c","626":"20fafe9789ed7697","703":"ac617f827d8e985e","705":"daacca5e52f0bb3c"}[chunkId] + ".js";
+/******/ 		return "" + (chunkId === 76 ? "common" : chunkId) + "." + {"76":"51e2606821811a7b","177":"c2c1ce86120293c4","203":"4aaca35ebe76d10f","345":"c2139e7325e717c6","381":"8016f256f23e9e2b","406":"a844342cdfd7ab87","424":"a758c18c52928922","488":"7ca56f7e737c55fa","546":"22638b797b2a0b12","611":"54c913e93527991c","626":"20fafe9789ed7697","703":"ac617f827d8e985e","705":"daacca5e52f0bb3c","765":"69ee171dd89b9fef"}[chunkId] + ".js";
 /******/ 	};
 /******/ })();
 /******/ 
@@ -6062,6 +6062,11 @@ if(!__webpack_require__.federation.instance){
 /******/ 	};
 /******/ })();
 /******/ 
+/******/ /* webpack/runtime/runtimeId */
+/******/ (() => {
+/******/ 	__webpack_require__.j = 772;
+/******/ })();
+/******/ 
 /******/ /* webpack/runtime/sharing */
 /******/ (() => {
 /******/ 	__webpack_require__.S = {};
@@ -6110,6 +6115,7 @@ if(!__webpack_require__.federation.instance){
 /******/ 				register("@angular/core", "18.2.11", () => (__webpack_require__.e(705).then(() => (() => (__webpack_require__(7705))))));
 /******/ 				register("@angular/platform-browser", "18.2.11", () => (Promise.all([__webpack_require__.e(381), __webpack_require__.e(611), __webpack_require__.e(345)]).then(() => (() => (__webpack_require__(345))))));
 /******/ 				register("@angular/router", "18.2.11", () => (Promise.all([__webpack_require__.e(381), __webpack_require__.e(611), __webpack_require__.e(203), __webpack_require__.e(424), __webpack_require__.e(406)]).then(() => (() => (__webpack_require__(6406))))));
+/******/ 				register("@artesgo/task-manager", "0.0.1", () => (Promise.all([__webpack_require__.e(381), __webpack_require__.e(611), __webpack_require__.e(76)]).then(() => (() => (__webpack_require__(2089))))));
 /******/ 			}
 /******/ 			break;
 /******/ 		}
@@ -6163,7 +6169,10 @@ if(!__webpack_require__.federation.instance){
 /******/ 			shareConfig: {"eager":false,"requiredVersion":"~18.2.0","strictVersion":true,"singleton":true}},],	"@angular/router": [{	version: "18.2.11",
 /******/ 			get: () => (Promise.all([__webpack_require__.e(381), __webpack_require__.e(611), __webpack_require__.e(203), __webpack_require__.e(424), __webpack_require__.e(406)]).then(() => (() => (__webpack_require__(6406))))),
 /******/ 			scope: ["default"],
-/******/ 			shareConfig: {"eager":false,"requiredVersion":"~18.2.0","strictVersion":true,"singleton":true}},],}
+/******/ 			shareConfig: {"eager":false,"requiredVersion":"~18.2.0","strictVersion":true,"singleton":true}},],	"@artesgo/task-manager": [{	version: "0.0.1",
+/******/ 			get: () => (Promise.all([__webpack_require__.e(381), __webpack_require__.e(611), __webpack_require__.e(76)]).then(() => (() => (__webpack_require__(2089))))),
+/******/ 			scope: ["default"],
+/******/ 			shareConfig: {"eager":false,"requiredVersion":"0.0.1","strictVersion":false,"singleton":true}},],}
 /******/ 	__webpack_require__.S = {};
 /******/ 	var initPromises = {};
 /******/ 	var initTokens = {};
@@ -6219,6 +6228,20 @@ if(!__webpack_require__.federation.instance){
 /******/ 				scope: ["default"],
 /******/ 			},
 /******/ 			shareKey: "@angular/common",
+/******/ 		},
+/******/ 		5765: {
+/******/ 			getter: () => (__webpack_require__.e(76).then(() => (() => (__webpack_require__(2089))))),
+/******/ 			shareInfo: {
+/******/ 				shareConfig: {
+/******/ 				  "fixedDependencies": false,
+/******/ 				  "requiredVersion": "0.0.1",
+/******/ 				  "strictVersion": false,
+/******/ 				  "singleton": true,
+/******/ 				  "eager": false
+/******/ 				},
+/******/ 				scope: ["default"],
+/******/ 			},
+/******/ 			shareKey: "@artesgo/task-manager",
 /******/ 		},
 /******/ 		1703: {
 /******/ 			getter: () => (Promise.all([__webpack_require__.e(203), __webpack_require__.e(424), __webpack_require__.e(406)]).then(() => (() => (__webpack_require__(6406))))),
@@ -6311,6 +6334,9 @@ if(!__webpack_require__.federation.instance){
 /******/ 		"705": [
 /******/ 			1061,
 /******/ 			8673
+/******/ 		],
+/******/ 		"765": [
+/******/ 			5765
 /******/ 		]
 /******/ 	};
 /******/ 	__webpack_require__.f.consumes = (chunkId, promises) => {
@@ -6345,7 +6371,7 @@ if(!__webpack_require__.federation.instance){
 /******/ 				if(installedChunkData) {
 /******/ 					promises.push(installedChunkData[2]);
 /******/ 				} else {
-/******/ 					if(!/^(381|424|611|703)$/.test(chunkId)) {
+/******/ 					if(!/^(381|424|611|703|765)$/.test(chunkId)) {
 /******/ 						// setup Promise in chunk cache
 /******/ 						var promise = new Promise((resolve, reject) => (installedChunkData = installedChunks[chunkId] = [resolve, reject]));
 /******/ 						promises.push(installedChunkData[2] = promise);

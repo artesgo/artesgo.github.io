@@ -183,6 +183,34 @@
           "sync": []
         }
       }
+    },
+    {
+      "id": "task:@artesgo/task-manager",
+      "name": "@artesgo/task-manager",
+      "version": "0.0.1",
+      "singleton": true,
+      "requiredVersion": "^undefined",
+      "assets": {
+        "js": {
+          "async": [
+            "177.c2c1ce86120293c4.js",
+            "203.4aaca35ebe76d10f.js",
+            "406.a844342cdfd7ab87.js",
+            "705.daacca5e52f0bb3c.js",
+            "345.c2139e7325e717c6.js",
+            "488.7ca56f7e737c55fa.js",
+            "546.22638b797b2a0b12.js",
+            "626.20fafe9789ed7697.js"
+          ],
+          "sync": [
+            "common.51e2606821811a7b.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
     }
   ],
   "remotes": [],

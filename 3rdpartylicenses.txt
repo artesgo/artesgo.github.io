@@ -123,9 +123,13 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 
 
+@artesgo/daisy-drawer
+
 @artesgo/daisy-dropdown
 
 @artesgo/daisy-input
+
+@artesgo/daisy-radio
 
 @artesgo/daisy-tabs
 

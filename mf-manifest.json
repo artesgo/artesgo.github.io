@@ -209,6 +209,32 @@
       }
     },
     {
+      "id": "holo:@artesgo/daisy-drawer",
+      "name": "@artesgo/daisy-drawer",
+      "version": "0.0.1",
+      "singleton": true,
+      "requiredVersion": "^undefined",
+      "assets": {
+        "js": {
+          "async": [
+            "705.2d26d0ab3445c1e8.js",
+            "177.0e7ddfb3abe50b92.js",
+            "839.ed145bed4941872a.js",
+            "341.1d50de333b84f9e1.js",
+            "488.5dad9f8a7922fa2c.js",
+            "546.d2fd0ebf44892033.js"
+          ],
+          "sync": [
+            "common.a926444e0a1bd142.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
       "id": "holo:@artesgo/daisy-dropdown",
       "name": "@artesgo/daisy-dropdown",
       "version": "0.0.1",
@@ -225,7 +251,7 @@
             "546.d2fd0ebf44892033.js"
           ],
           "sync": [
-            "common.6253448764531720.js"
+            "common.a926444e0a1bd142.js"
           ]
         },
         "css": {
@@ -251,7 +277,33 @@
             "546.d2fd0ebf44892033.js"
           ],
           "sync": [
-            "common.6253448764531720.js"
+            "common.a926444e0a1bd142.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "holo:@artesgo/daisy-radio",
+      "name": "@artesgo/daisy-radio",
+      "version": "0.0.1",
+      "singleton": true,
+      "requiredVersion": "^undefined",
+      "assets": {
+        "js": {
+          "async": [
+            "705.2d26d0ab3445c1e8.js",
+            "177.0e7ddfb3abe50b92.js",
+            "839.ed145bed4941872a.js",
+            "341.1d50de333b84f9e1.js",
+            "488.5dad9f8a7922fa2c.js",
+            "546.d2fd0ebf44892033.js"
+          ],
+          "sync": [
+            "common.a926444e0a1bd142.js"
           ]
         },
         "css": {
@@ -277,7 +329,7 @@
             "546.d2fd0ebf44892033.js"
           ],
           "sync": [
-            "common.6253448764531720.js"
+            "common.a926444e0a1bd142.js"
           ]
         },
         "css": {
@@ -303,7 +355,7 @@
             "546.d2fd0ebf44892033.js"
           ],
           "sync": [
-            "common.6253448764531720.js"
+            "common.a926444e0a1bd142.js"
           ]
         },
         "css": {
@@ -329,7 +381,7 @@
             "546.d2fd0ebf44892033.js"
           ],
           "sync": [
-            "common.6253448764531720.js"
+            "common.a926444e0a1bd142.js"
           ]
         },
         "css": {
@@ -341,7 +393,7 @@
   ],
   "remotes": [
     {
-      "federationContainerName": "http://localhost:4201/remoteEntry.mjs",
+      "federationContainerName": "https://artesgo.github.io/task/remoteEntry.mjs",
       "moduleName": "Routes",
       "alias": "task",
       "entry": "*"
