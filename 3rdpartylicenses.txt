@@ -135,8 +135,6 @@ THE SOFTWARE.
 
 @artesgo/daisy-theme
 
-@artesgo/daisy-typeahead
-
 @babel/runtime
 MIT
 MIT License
