@@ -129,8 +129,6 @@ THE SOFTWARE.
 
 @artesgo/daisy-input
 
-@artesgo/daisy-radio
-
 @artesgo/daisy-tabs
 
 @artesgo/daisy-theme
