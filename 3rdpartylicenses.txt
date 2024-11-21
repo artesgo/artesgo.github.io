@@ -127,11 +127,15 @@ THE SOFTWARE.
 
 @artesgo/daisy-button
 
+@artesgo/daisy-checkbox
+
 @artesgo/daisy-drawer
 
 @artesgo/daisy-dropdown
 
 @artesgo/daisy-input
+
+@artesgo/daisy-radio
 
 @artesgo/daisy-tabs
 
