@@ -225,7 +225,7 @@
             "546.d2fd0ebf44892033.js"
           ],
           "sync": [
-            "common.a3cd3e216a582507.js"
+            "common.80d858c325c5cbc1.js"
           ]
         },
         "css": {
@@ -251,7 +251,7 @@
             "546.d2fd0ebf44892033.js"
           ],
           "sync": [
-            "common.a3cd3e216a582507.js"
+            "common.80d858c325c5cbc1.js"
           ]
         },
         "css": {
@@ -277,7 +277,7 @@
             "546.d2fd0ebf44892033.js"
           ],
           "sync": [
-            "common.a3cd3e216a582507.js"
+            "common.80d858c325c5cbc1.js"
           ]
         },
         "css": {
@@ -303,7 +303,7 @@
             "546.d2fd0ebf44892033.js"
           ],
           "sync": [
-            "common.a3cd3e216a582507.js"
+            "common.80d858c325c5cbc1.js"
           ]
         },
         "css": {
@@ -329,7 +329,7 @@
             "546.d2fd0ebf44892033.js"
           ],
           "sync": [
-            "common.a3cd3e216a582507.js"
+            "common.80d858c325c5cbc1.js"
           ]
         },
         "css": {
@@ -355,7 +355,33 @@
             "546.d2fd0ebf44892033.js"
           ],
           "sync": [
-            "common.a3cd3e216a582507.js"
+            "common.80d858c325c5cbc1.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "holo:@artesgo/daisy-modal",
+      "name": "@artesgo/daisy-modal",
+      "version": "0.0.1",
+      "singleton": true,
+      "requiredVersion": "^undefined",
+      "assets": {
+        "js": {
+          "async": [
+            "705.2d26d0ab3445c1e8.js",
+            "177.0e7ddfb3abe50b92.js",
+            "839.ed145bed4941872a.js",
+            "341.1d50de333b84f9e1.js",
+            "488.5dad9f8a7922fa2c.js",
+            "546.d2fd0ebf44892033.js"
+          ],
+          "sync": [
+            "common.80d858c325c5cbc1.js"
           ]
         },
         "css": {
@@ -381,7 +407,7 @@
             "546.d2fd0ebf44892033.js"
           ],
           "sync": [
-            "common.a3cd3e216a582507.js"
+            "common.80d858c325c5cbc1.js"
           ]
         },
         "css": {
@@ -407,7 +433,7 @@
             "546.d2fd0ebf44892033.js"
           ],
           "sync": [
-            "common.a3cd3e216a582507.js"
+            "common.80d858c325c5cbc1.js"
           ]
         },
         "css": {
@@ -433,7 +459,7 @@
             "546.d2fd0ebf44892033.js"
           ],
           "sync": [
-            "common.a3cd3e216a582507.js"
+            "common.80d858c325c5cbc1.js"
           ]
         },
         "css": {

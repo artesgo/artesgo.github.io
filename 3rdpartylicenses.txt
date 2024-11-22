@@ -135,6 +135,8 @@ THE SOFTWARE.
 
 @artesgo/daisy-input
 
+@artesgo/daisy-modal
+
 @artesgo/daisy-radio
 
 @artesgo/daisy-tabs
