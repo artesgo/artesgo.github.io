@@ -250,7 +250,7 @@
             "546.d2fd0ebf44892033.js"
           ],
           "sync": [
-            "common.80d858c325c5cbc1.js"
+            "common.52901028cdeb4068.js"
           ]
         },
         "css": {
@@ -279,7 +279,7 @@
             "546.d2fd0ebf44892033.js"
           ],
           "sync": [
-            "common.80d858c325c5cbc1.js"
+            "common.52901028cdeb4068.js"
           ]
         },
         "css": {
@@ -308,7 +308,36 @@
             "546.d2fd0ebf44892033.js"
           ],
           "sync": [
-            "common.80d858c325c5cbc1.js"
+            "common.52901028cdeb4068.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^undefined",
+      "shareScope": "default",
+      "name": "@artesgo/daisy-directives",
+      "version": "0.0.1",
+      "eager": false,
+      "id": "holo:@artesgo/daisy-directives",
+      "assets": {
+        "js": {
+          "async": [
+            "705.2d26d0ab3445c1e8.js",
+            "177.0e7ddfb3abe50b92.js",
+            "839.ed145bed4941872a.js",
+            "341.1d50de333b84f9e1.js",
+            "488.5dad9f8a7922fa2c.js",
+            "546.d2fd0ebf44892033.js"
+          ],
+          "sync": [
+            "common.52901028cdeb4068.js"
           ]
         },
         "css": {
@@ -337,7 +366,7 @@
             "546.d2fd0ebf44892033.js"
           ],
           "sync": [
-            "common.80d858c325c5cbc1.js"
+            "common.52901028cdeb4068.js"
           ]
         },
         "css": {
@@ -366,7 +395,7 @@
             "546.d2fd0ebf44892033.js"
           ],
           "sync": [
-            "common.80d858c325c5cbc1.js"
+            "common.52901028cdeb4068.js"
           ]
         },
         "css": {
@@ -395,7 +424,36 @@
             "546.d2fd0ebf44892033.js"
           ],
           "sync": [
-            "common.80d858c325c5cbc1.js"
+            "common.52901028cdeb4068.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^undefined",
+      "shareScope": "default",
+      "name": "@artesgo/daisy-link",
+      "version": "0.0.1",
+      "eager": false,
+      "id": "holo:@artesgo/daisy-link",
+      "assets": {
+        "js": {
+          "async": [
+            "705.2d26d0ab3445c1e8.js",
+            "177.0e7ddfb3abe50b92.js",
+            "839.ed145bed4941872a.js",
+            "341.1d50de333b84f9e1.js",
+            "488.5dad9f8a7922fa2c.js",
+            "546.d2fd0ebf44892033.js"
+          ],
+          "sync": [
+            "common.52901028cdeb4068.js"
           ]
         },
         "css": {
@@ -424,7 +482,7 @@
             "546.d2fd0ebf44892033.js"
           ],
           "sync": [
-            "common.80d858c325c5cbc1.js"
+            "common.52901028cdeb4068.js"
           ]
         },
         "css": {
@@ -453,7 +511,7 @@
             "546.d2fd0ebf44892033.js"
           ],
           "sync": [
-            "common.80d858c325c5cbc1.js"
+            "common.52901028cdeb4068.js"
           ]
         },
         "css": {
@@ -482,7 +540,7 @@
             "546.d2fd0ebf44892033.js"
           ],
           "sync": [
-            "common.80d858c325c5cbc1.js"
+            "common.52901028cdeb4068.js"
           ]
         },
         "css": {
@@ -511,7 +569,7 @@
             "546.d2fd0ebf44892033.js"
           ],
           "sync": [
-            "common.80d858c325c5cbc1.js"
+            "common.52901028cdeb4068.js"
           ]
         },
         "css": {
