@@ -141,6 +141,8 @@ THE SOFTWARE.
 
 @artesgo/daisy-modal
 
+@artesgo/daisy-overlay
+
 @artesgo/daisy-radio
 
 @artesgo/daisy-tabs
