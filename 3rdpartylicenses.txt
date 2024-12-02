@@ -131,6 +131,8 @@ THE SOFTWARE.
 
 @artesgo/daisy-directives
 
+@artesgo/daisy-divider
+
 @artesgo/daisy-drawer
 
 @artesgo/daisy-dropdown
